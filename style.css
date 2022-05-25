@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url(/imagens/fundolight.jpg) no-repeat;
+    background-size: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.logo{
+    width: 100px;
+    padding: 5px;
+}
+
+header .topo{
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    display: flex;
+    background-color: white;
+}
+
+ul.navegacao {
+    margin-left: 800px;
+
+}
+
+ul.navegacao li{
+    display: inline;
+    padding: 10px;
+}
+
+ul.navegacao li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+ul.navegacao li a:hover{
+    color: rgb(158, 9, 9);
+}
+
+h1{
+    padding-bottom: 40px;
+}
+
+main .principal{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.container{
+    width: 750px;
+    text-align:center;
+}
+
+.container p{
+    margin-bottom: 20px;
+}
+
+.container img{
+    border: solid 1px #ccc;
+}
+
+
+.conteudo .primario{
+    width: 375px;
+    margin: 0 10px 100px 700px;
+    float: left;
+}
+
+.conteudo .secundario{
+    width: 375px;
+    margin: 0 10px 100px -900px;
+    float: left;
+
+}
+
+
+.footer-rodape{
+    background: rgb(104, 15, 27);
+    padding-left: 20px;
+}
+
+
+ul.navegacao-rodape li {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    list-style-type:disc;
+    display: inline-block;
+
+
+
+}
+
+ul.navegacao-rodape li a{
+    font-family:sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+ul.navegacao-rodape li a:hover{
+    color: #ccc;
+}
+
+.icones{
+    bottom: 70px;
+    display: flex;
+    padding-top: 5px;
+}
+
+.icones a{
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+}
+
+.icones a:hover{
+    color: #ccc;
+}
+
+.direitos{
+    text-align: center;
+}
